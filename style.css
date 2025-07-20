@@ -1,0 +1,55 @@
+/* Custom styles for Inter font and general layout */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.container {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+.message-box {
+    background-color: #e2e8f0;
+    border-left: 4px solid #3b82f6;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    text-align: left;
+    font-size: 0.9em;
+    color: #1e293b;
+}
+.data-display {
+    background-color: #f0f9ff;
+    border: 1px solid #bfdbfe;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+    text-align: left;
+    font-family: monospace;
+    white-space: pre-wrap; /* Ensures text wraps */
+    word-break: break-all; /* Breaks long words */
+    max-height: 300px;
+    overflow-y: auto;
+}
+button {
+    transition: all 0.2s ease-in-out;
+}
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+button:active {
+    transform: translateY(0);
+    box-shadow: none;
+}
